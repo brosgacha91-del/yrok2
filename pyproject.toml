@@ -1,0 +1,11 @@
+[project]
+name = "order-processor-lab"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["pydantic[email]>=2,<3"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
